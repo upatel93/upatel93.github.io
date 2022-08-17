@@ -1,0 +1,127 @@
+/*
+
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Merriweather Sans', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    max-width: 1100px;
+    margin: auto;
+    min-height: 95vh;
+}
+
+nav ul{
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.menu li{
+    display: inline;
+    margin: 0;
+    padding: 10px;
+}
+main{
+    width:90%;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Dosis', sans-serif;
+}
+
+.menu li:hover{
+    background-color: rgb(126, 113, 113); 
+}
+
+a.menu{
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 2.5rem;
+}
+.footer p{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+aside{
+    padding: 5%;
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 1.5;
+}
+
+#current{
+    background-color: rgb(164, 187, 163);
+}
+
+#content{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+    max-width: 800px;
+    margin: auto;
+
+
+}
+
+#content div{
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border: solid 1px grey;
+    padding: 10px;
+}
+
+#content div:hover{
+    border: 1px solid #cccccc;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+}
+
+#content div h3{
+    margin: auto;
+}
+
+#content div span{
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+#content div a{
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+#content div a:hover{
+    color:blue;
+}
+
+#content img{
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+#expaside{
+    text-align: center;
+    padding: 5px;
+}
