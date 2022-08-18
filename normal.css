@@ -55,7 +55,7 @@ a.menu{
 }
 .footer p{
     text-align: center;
-    margin: 5px;
+    margin: 5px 5px 5px 0;
     padding: 5px;
 }
 
@@ -124,4 +124,45 @@ aside{
 #expaside{
     text-align: center;
     padding: 5px;
+}
+
+.indexaside{
+    display:block;
+}
+
+#maintable{
+    text-decoration: none;
+}
+
+
+table,caption{
+    border: solid 1px grey;
+    margin: auto;
+}
+
+caption{
+    margin: 5px 0;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+thead{
+    color: white;
+    background-color:rgb(164, 187, 163) ;
+}
+td,th{
+    border: solid 1px grey;
+    text-align: center;
+}
+
+td img{
+    width: 70%;
+    height: 70%;
+    border-radius: 100%;
+    margin: 3px;
+}
+
+#head {
+    margin: auto;
+    text-align: center;
 }

@@ -1,0 +1,46 @@
+    @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Raleway:wght@200&display=swap');
+
+    .container { 
+        width: 600px; margin: auto; 
+    }
+      
+      form {
+
+        font-family: 'Oxygen', sans-serif;
+          /* Just to center the form on the page */
+          margin: 0 auto;
+          width: 550px;
+          /* To see the outline of the form */
+          padding: 1em;
+          border: 1px solid rgb(3, 161, 109);
+          border-radius: 1em;
+      }
+      
+      label {
+          /* To make sure that all labels have the same size and are properly aligned */
+          display: inline-block;
+          width: 200px;
+          text-align: right;
+          
+      }
+
+      input:hover, textarea:hover{
+          border-style: solid;
+          border-color: rgba(22, 75, 29, 0.911);
+      }
+      input, textarea{
+        width: 150px;
+        border: rgb(204, 199, 199) solid 1px;
+        padding: 5px;
+        margin:5px;
+      }
+
+      
+div.error p{
+    font-size: smaller;
+        color:red;
+      }
+  
+ #fnm:invalid, #msg:invalid, #email:invalid {
+    border: 1px solid red;
+ }
